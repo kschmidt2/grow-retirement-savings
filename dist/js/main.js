@@ -43,12 +43,13 @@ document.addEventListener('DOMContentLoaded', function () {
       title: false,
       labels: {
         useHTML: true,
+        autoRotation: false,
         overflow: 'allow',
         formatter: function formatter() {
           return this.value / 1000000;
         }
       },
-      max: 3000000
+      max: 5000000
     },
     credits: {
       enabled: false
